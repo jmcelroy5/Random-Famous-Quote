@@ -1,0 +1,52 @@
+body {
+	font-family: "Lucida Grande";
+}
+#container {
+	max-width: 500px;
+	padding: 25px;
+	margin: 50px auto;
+	background-color: white;
+}
+#quote-container {
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
+.quotation-mark {
+	font-size: 40px;
+	margin-right: 20px;
+}
+#quote {
+	font-size: 30px;
+}
+.author {
+	text-align: right;
+	font-size: 20px;
+	font-weight: lighter;
+	margin-top: 20px;
+}
+.button {
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	border: 0px;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+#button-bar {
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	align-items: stretch;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.change-bg-color{
+	transition: background-color .5s;
+}
+
+#tweet-link {
+	font-size: 40px;
+}
